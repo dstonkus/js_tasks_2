@@ -10,8 +10,8 @@ const ProfileContainer = styled.div`
 
   border: 1px solid black;
   border-radius: 15px;
-  margin: 35px 25px 0px 25px;
-  padding: 50px;
+  margin: 55px 25px 0px 25px;
+  padding: 20px;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -23,6 +23,8 @@ const ProfileContainer = styled.div`
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
 `;
 
 const CommentSectionContainer = styled.div`

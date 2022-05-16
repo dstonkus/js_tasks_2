@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import peopleApi from '../../api/peopleApi';
 
 const Header = styled.h1`
+  text-align: center;
+`;
+
+const Text = styled.h3`
   text-align: center;
 `;
 
@@ -12,6 +15,7 @@ const SearchInput = styled.div`
   margin-bottom: 10px;
   input {
     width: 200px;
+    text-align: center;
   }
 `;
 
@@ -26,12 +30,19 @@ const PeopleContainer = styled.div`
 `;
 
 const Profile = styled.div`
-  margin: 10px;
+  background-color: #e1e1e1;
+  margin: 10px 20px 10px 20px;
   width: 100%;
   max-width: 400px;
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
+  transition: 0.1s;
+
+  :hover {
+    border: 1px solid white;
+    background-color: #eeeeee;
+  }
 `;
 
 const ProfileLink = styled(Link)`
@@ -61,6 +72,7 @@ const PeoplesCard = ({ peopleData }) => {
             onChange={(e) => setQuery(e.target.value)}
           />
         </SearchInput>
+        <Text>Press on card to read more</Text>
         <PeopleContainer>
           {peopleData.length === 0 && (
             <>
