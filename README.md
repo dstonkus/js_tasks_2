@@ -1,6 +1,6 @@
 # Intro
 
-- Simple React application with people list fetched from random api.
+- Simple Mobile Friendly React application with people list fetched from random api.
 - Search bar, profile page with comment section (until tab close).
 
 # Setup & Running
