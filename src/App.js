@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
-import ProfileCard from './components/Profile/ProfileCard';
-import PeoplesCard from './components/PeopleDashboard/PeoplesCard';
+import ProfileCard from './components/Profile/Profile';
+import PeoplesCard from './components/PeopleList/PeoplesList';
 import peopleApi from './api/peopleApi';
 import './App.css';
 
