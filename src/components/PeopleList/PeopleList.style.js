@@ -2,18 +2,16 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Profile = styled.div`
-  background-color: #e1e1e1;
+  background-color: #eeeeee;
   margin: 10px 20px 10px 20px;
   width: 100%;
   max-width: 400px;
-  border: 1px solid black;
   border-radius: 10px;
   text-align: center;
   transition: 0.1s;
 
   :hover {
-    border: 1px solid white;
-    background-color: #eeeeee;
+    background-color: #fff;
   }
 `;
 

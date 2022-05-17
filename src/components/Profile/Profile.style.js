@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 export const ProfileContainer = styled.div`
-  background-color: #dfdfdf;
+  background-color: #eeeeee;
   h1 {
     margin-top: 0px;
   }
 
-  border: 1px solid black;
   border-radius: 15px;
   margin: 55px 25px 0px 25px;
   padding: 20px;
